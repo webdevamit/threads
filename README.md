@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Database setup
+
+In this case we have installed Postgress [locally from official website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+And now using this local setup to target the database config in our env file.
+We also need to make sure we have running Postgress server and when running the next js application.
+
+## Note - Vercel only allow one db to use at a time in its free tier and that's why we have used local setup of postgress
+
 ## Getting Started
 
 First, run the development server:
